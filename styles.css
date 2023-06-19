@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(58, 58, 138);
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    font-weight: normal;
+}
+
+a:visited {
+    color: blue;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+header {
+    background-color: yellow;
+    margin: 0;
+    padding: 30;
+}
+
+footer {
+    background-color: black;
+    padding: 40px 20px;
+}
+
+article {
+    clear: left;
+}
+
+#subtitle {
+    font-size: larger;
+}
+
+#logo {
+    float: right;
+    vertical-align: top;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.post {
+    border-left: 4px solid gray;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+p, h2 {
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    font-size: large;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+    background-color: gray;
+    padding: 3px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+article p {
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+article h2 {
+    color: rgb(59, 59, 116);
+}
+
+article img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid gray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: gray;
+    text-align: center;
+}
